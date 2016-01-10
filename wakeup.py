@@ -100,8 +100,8 @@ def setLight(data):
             logger.info("FAILED:")
             logger.info("\n".join(errors))
         
-        if successes:
-            logger.info("SUCCESSFUL: "+str(successes))     
+        #if successes:
+        #    logger.info("SUCCESSFUL: "+str(successes))     
 
 #################
 #  LIGHT RAMP-UP
